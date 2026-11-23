@@ -1,0 +1,5 @@
+# เก็บ LF เสมอ แม้ clone บน Windows ที่ตั้ง core.autocrlf=true
+# (script ที่เป็น CRLF จะรันใน VM ไม่ได้: "$'\r': command not found")
+* text=auto eol=lf
+*.png binary
+*.docx binary

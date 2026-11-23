@@ -1,0 +1,20 @@
+# Workload binaries และ CLI ที่ compile ได้
+workloads/cpu_workload
+workloads/sleep_workload
+workloads/migrate_workload
+workloads/sched_profiler_ctl
+
+# ผลการ build kernel module (out-of-tree)
+kernel/*.o
+kernel/*.ko
+kernel/*.mod
+kernel/*.mod.c
+kernel/.*.cmd
+kernel/Module.symvers
+kernel/modules.order
+
+# เครื่องมือถ่ายภาพหลักฐานจาก VM และ generator ของรายงาน ใช้บนเครื่องที่ทำรายงานเท่านั้น
+tools/
+
+# Lock file ของ Word ตอนเปิดรายงานค้างไว้
+~$*.docx
